@@ -1,0 +1,22 @@
+PREPARE PHASE: Data Limitations & Constraints
+
+While this dataset is robust enough to identify macro-level operational bottlenecks, it is critical to acknowledge its limitations before presenting final business recommendations. 
+
+1. LACK OF AGENT-LEVEL GRANULARITY
+The dataset tracks tickets by channel and priority, but it does not contain unique Employee IDs for the support agents. 
+- Constraint: We cannot calculate individual Agent Performance, Shrinkage, or Schedule Adherence. All insights regarding Average Handling Time (AHT) reflect the department as a whole, not individual performers.
+
+2. ABSENCE OF FINANCIAL METRICS
+There is no data regarding the operational cost per channel (e.g., the cost of a phone call vs. the cost of a live chat) or agent hourly wages.
+- Constraint: We can calculate the experiential cost of an SLA breach (the drop in CSAT), but we cannot provide a strict monetary ROI (Return on Investment) for hiring additional staff. Recommendations will focus on resource reallocation rather than financial forecasting.
+
+3. STATIC SNAPSHOT vs. LIVE API
+This data represents a historical, static export.
+- Constraint: The final Tableau dashboard will serve as a proof-of-concept for historical operational reporting, but it will not be connected to a live CRM API for real-time ticket tracking. 
+
+4. TIMEZONE STANDARDIZATION
+The dataset includes customers from multiple global regions (North America, Europe, Asia), but the `ticket_created_date` and `ticket_resolved_date` timestamps do not explicitly define a standardized timezone (e.g., UTC). 
+- Constraint: For the purpose of the SLA calculation, we will assume all timestamps have been normalized to a single server timezone prior to export.
+
+5. TEXT MINING CONSTRAINTS
+While an `issue_description` column exists, deep Natural Language Processing (NLP) to extract specific recurring keywords is outside the scope of this SQL-driven analysis. Categorization will rely on the predefined `category` and `product` columns.

@@ -1,0 +1,32 @@
+PREPARE PHASE: ROCCC Data Credibility Assessment
+
+DATASET OVERVIEW
+- Name: Customer Support Tickets Dataset (200K+ Records)
+- Source: Kaggle (Uploaded by Mirza Yasir Abdullah)
+- Format: .csv 
+- Size: ~200,000 rows, 30 columns
+
+ROCCC EVALUATION
+To determine if this dataset is appropriate for answering the business task, it was evaluated using the ROCCC framework:
+
+1. RELIABLE (Medium)
+The data contains robust, industry-standard BPO metrics (CSAT, First Response Time, Time to Resolution). However, as a public dataset designed for analytical practice, it is synthetic/anonymized rather than direct proprietary company data. It is highly reliable for demonstrating analytical competency, but insights cannot be applied to a specific real-world company.
+
+2. ORIGINAL (Low)
+This is a secondary data source. It was provided via a third-party platform (Kaggle) rather than pulled directly from an internal CRM or SQL database by a first-party data engineer.
+
+3. COMPREHENSIVE (High)
+The dataset is exceptionally comprehensive for a BPO analysis. It contains all necessary parameters to answer the business questions, including ticket channels, priority levels, exact timestamps for SLA calculations, and customer satisfaction scores. There is minimal missing data in critical columns.
+
+4. CURRENT (Medium)
+The data represents historical support interactions. While not real-time, the operational metrics and channels (Email, Chat, Social Media) perfectly mirror current 2026 industry standards for BPO environments.
+
+5. CITED (High)
+The dataset is properly documented, cited, and hosted publicly on Kaggle with a clear schema and data dictionary provided by the uploader.
+
+DATA PRIVACY & ETHICS (PII)
+Handling customer data requires strict adherence to privacy protocols. A visual inspection of the raw CSV confirms that Personally Identifiable Information (PII) has been properly handled:
+- Exact physical addresses and payment details are excluded.
+- Customer emails and names are synthetic/anonymized.
+- Customer IDs are unique alphanumeric strings, ensuring no real-world identities can be traced. 
+- The dataset is ethically sound for public portfolio analysis.
