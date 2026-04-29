@@ -1,0 +1,36 @@
+PROJECT SCOPE: BPO Support Ticket Optimization Analysis
+
+1. PROJECT OBJECTIVE
+To analyze a historical dataset of over 200,000 customer support tickets to identify bottlenecks in the resolution process, calculate the impact of SLA breaches on Customer Satisfaction (CSAT), and provide actionable recommendations for staffing and routing improvements.
+
+2. IN-SCOPE (Deliverables & Analysis)
+- Cleaning and standardizing raw ticket data using Google BigQuery (SQL).
+- Engineering new metrics, specifically calculating exact resolution times (in hours) and creating a 48-hour SLA breach flag.
+- Analyzing ticket volume and resolution efficiency across all communication channels (Email, Chat, Phone, Social Media).
+- Correlating SLA performance directly with average CSAT scores.
+- Evaluating the integrity of the priority routing system (Critical vs. Low).
+- Building an interactive Tableau dashboard for operational monitoring.
+- Delivering a final executive presentation with staffing/routing recommendations.
+
+3. OUT-OF-SCOPE
+- Analyzing agent-specific performance metrics (data is anonymized at the agent level).
+- Financial forecasting or calculating the exact dollar cost of support operations.
+- Real-time API data integration (this analysis is based on a static historical snapshot).
+- Natural Language Processing (NLP) or text mining of the actual ticket issue descriptions.
+
+4. DATA SOURCES
+- Primary Dataset: "Customer Support Tickets Dataset" (Kaggle).
+- Format: Single CSV file (100,000+ records).
+- Storage/Processing Environment: Google BigQuery Sandbox.
+
+5. TECH STACK
+- Database Management & Querying: Google BigQuery (Standard SQL)
+- Data Visualization: Tableau Public
+- Presentation: Canva / PDF
+
+6. ESTIMATED TIMELINE (10-Day Sprint)
+- Days 1-2: Data acquisition, environment setup, and visual inspection.
+- Days 3-4: SQL data cleaning, schema definition, and feature engineering (SLA metrics).
+- Days 5-6: Exploratory Data Analysis (EDA) and querying core business questions.
+- Days 7-8: Tableau dashboard design and metric visualization.
+- Days 9-10: Final presentation design, GitHub documentation, and project deployment.

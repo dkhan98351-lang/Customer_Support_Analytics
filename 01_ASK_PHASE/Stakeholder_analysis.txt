@@ -1,0 +1,23 @@
+STAKEHOLDER ANALYSIS: BPO Support Ticket Optimization
+
+Understanding the audience for this analysis ensures the final Tableau dashboard and SQL insights are tailored to actual business needs, rather than just abstract metrics.
+
+1. EXECUTIVE STAKEHOLDER: VP of Customer Success / Director of Operations
+- Primary Goal: Improve overall Customer Satisfaction (CSAT) and reduce customer churn.
+- Core Interest in Data: The financial and experiential cost of SLA breaches. They need the "big picture."
+- Required Deliverable: High-level executive presentation highlighting the correlation between SLA failures and CSAT drops, along with strategic recommendations for headcount or channel investments.
+
+2. TACTICAL STAKEHOLDER: Support Operations Manager / Floor Supervisor
+- Primary Goal: Optimize daily team performance and hit SLA targets.
+- Core Interest in Data: Granular bottleneck identification. They need to know exactly which channel (Email, Chat, Phone) is falling behind and what times of day have the worst resolution rates.
+- Required Deliverable: Interactive Tableau dashboard allowing them to filter ticket volume and average handling time (AHT) by channel, priority, and day of the week to adjust staffing shifts.
+
+3. TECHNICAL STAKEHOLDER: IT & Routing Systems Administrator
+- Primary Goal: Ensure the automated ticket routing systems are functioning correctly.
+- Core Interest in Data: Priority routing integrity. They need to know if "Critical" tickets are actually reaching agents faster than "Low" priority tickets.
+- Required Deliverable: SQL reporting outlining the Average Resolution Time specifically segmented by Ticket Priority level. 
+
+COMMUNICATION STRATEGY:
+- The raw SQL logs will be documented for technical review.
+- The Tableau dashboard will be designed for the Tactical Stakeholders (Operations Managers) for daily use.
+- The final Canva presentation will be distilled specifically for the Executive Stakeholder, focusing strictly on business impact and ROI(Return On Investment).

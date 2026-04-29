@@ -1,0 +1,19 @@
+BPO Analytics Project: Key Business Questions for SQL Analysis
+
+The following operational questions will dictate the SQL querying strategy and the final Tableau dashboard design:
+
+1. Channel Efficiency & Bottlenecks
+- Which support channel (Phone, Chat, Email) handles the highest total volume of tickets?
+- Which support channel has the highest Average Handling Time (AHT) / Resolution Time?
+
+2. The Cost of SLA Breaches
+- What is the exact mathematical difference in Average CSAT (Customer Satisfaction) between tickets that met the 48-hour SLA and tickets that breached it?
+- Which ticket categories are most frequently breaching the SLA?
+
+3. Routing & Prioritization Integrity
+- Does the internal routing system work? (e.g., Are "Critical" priority tickets actually achieving faster resolution times than "Low" priority tickets?)
+- What percentage of total volume consists of "Critical" tickets, and are we adequately staffed to handle them?
+
+4. Product & Customer Segmentation
+- Which specific product or service generates the highest volume of support tickets?
+- Do "Premium" or "Enterprise" customers experience faster resolution times than "Free" tier customers?
