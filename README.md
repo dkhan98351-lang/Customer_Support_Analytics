@@ -8,7 +8,7 @@ This end-to-end data analytics project investigates the operational efficiency o
 **Role:** Data Analyst  
 **Tools Used:** Google BigQuery (Standard SQL), Tableau, Canva, Markdown  
 **Dataset:** 200,000+ Customer Support Tickets (Sourced via Kaggle)
-*(Note: raw CSVs excluded from GitHub due to file size limits)
+**(Note: raw CSVs excluded from GitHub due to file size limits)
 
 ---
 
