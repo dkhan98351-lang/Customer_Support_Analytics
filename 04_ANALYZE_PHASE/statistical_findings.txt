@@ -1,0 +1,34 @@
+STATISTICAL FINDINGS: Key Business Insights
+
+Based on the SQL aggregations, the following critical operational failures have been identified:
+
+1. MASSIVE SLA FAILURE RATE (80% Breach)
+The department is in an operational crisis. 
+- Tickets that Met SLA (<48h): 7,974
+- Tickets that Breached SLA (>48h): 32,055
+Insight: Exactly 80% of all closed tickets are failing to meet the 48-hour service level agreement. 
+
+2. THE ROUTING SYSTEM IS BROKEN
+The internal IT routing system designed to prioritize urgent issues is failing completely. 
+- "Urgent" Priority Average Resolution: 121.10 hours
+- "Low" Priority Average Resolution: 119.90 hours
+Insight: "Urgent" tickets are actually taking LONGER to resolve than "Low" priority tickets. Agents are likely cherry-picking easier tickets from the queue rather than adhering to forced priority routing.
+
+3. SYSTEMIC BOTTLENECKS (120-Hour Averages)
+There is no single "bad" channel. The entire floor is bottlenecked.
+- Email: 120.71 hrs
+- Phone: 120.74 hrs
+- Chat: 119.84 hrs
+- Social Media: 119.45 hrs
+Insight: Volume is evenly distributed (~8,000 tickets per channel), but every single channel is averaging around 120 hours to resolve. This points to a severe overall headcount shortage rather than a specific departmental failure. 
+
+4. THE "CSAT ANOMALY"
+Despite the massive SLA breaches, the Customer Satisfaction (CSAT) score is stagnant.
+- Met SLA CSAT: 2.99
+- Breached SLA CSAT: 3.00
+Insight: A 3.0 is a mediocre score. The fact that the score does not improve even when tickets are resolved within 48 hours indicates that customers are fundamentally dissatisfied with the *quality* of the support provided, not just the speed. 
+
+5. HIGH-VALUE CLIENT NEGLECT
+- Corporate Segment Resolution Time: 120.01 hours
+- Individual Segment Resolution Time: 120.20 hours
+Insight: High-value "Corporate" clients are waiting exactly as long as standard "Individual" users. The company is risking its most lucrative contracts by failing to provide dedicated, expedited VIP support.

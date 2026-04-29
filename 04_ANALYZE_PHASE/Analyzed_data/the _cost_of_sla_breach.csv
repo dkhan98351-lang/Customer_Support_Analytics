@@ -1,0 +1,3 @@
+custom_sla_status,ticket_volume,average_csat_score
+Met SLA (<48h),7974,2.99
+Breached SLA (>48h),32055,3.0

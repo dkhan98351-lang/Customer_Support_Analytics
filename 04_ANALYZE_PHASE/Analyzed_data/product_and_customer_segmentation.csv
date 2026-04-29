@@ -1,0 +1,4 @@
+customer_segment,total_tickets,avg_resolution_time,avg_csat_score
+Corporate,13355,120.01,2.99
+Individual,13551,120.2,3.0
+Small Business,13123,120.65,3.0
